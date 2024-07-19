@@ -25,11 +25,11 @@ namespace Project_PMDanhMayTuDong
         {
             InitializeComponent();
 
-            this.BackgroundImage = Image.FromFile("C:\\C#3\\lab\\LabBaiLam\\PMDanhMayTuDong\\Project_PMDanhMayTuDong\\Resources\\imageBgRoboTyper.png");
-            img1 = Image.FromFile("C:\\C#3\\lab\\LabBaiLam\\PMDanhMayTuDong\\Project_PMDanhMayTuDong\\Resources\\imageBgBlueRobo.png");
-            img2 = Image.FromFile("C:\\C#3\\lab\\LabBaiLam\\PMDanhMayTuDong\\Project_PMDanhMayTuDong\\Resources\\imageBgRedRobo.png");
-            helpGif = Image.FromFile("C:\\C#3\\lab\\LabBaiLam\\PMDanhMayTuDong\\Project_PMDanhMayTuDong\\Resources\\helpgif.gif");
-            helpImg = Image.FromFile("C:\\C#3\\lab\\LabBaiLam\\PMDanhMayTuDong\\Project_PMDanhMayTuDong\\Resources\\helpimgok.png");
+            this.BackgroundImage = Properties.Resources.imageBgRoboTyper;
+            img1 = Properties.Resources.imageBgBlueRobo;
+            img2 = Properties.Resources.imageBgRedRobo;
+            helpGif = Properties.Resources.helpgif;
+            helpImg = Properties.Resources.helpimgok;
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -60,7 +60,7 @@ namespace Project_PMDanhMayTuDong
             {
                 if (this.WindowState == FormWindowState.Minimized)
                 {
-                    //Đéo làm gì
+                    //Không làm gì
                 }
                 else
                 {

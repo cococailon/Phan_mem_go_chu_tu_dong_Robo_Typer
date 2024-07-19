@@ -50,6 +50,7 @@ namespace Project_PMDanhMayTuDong
             button1.Enabled = false;
             textBox1.Text = text[0].ToString();
             label1.Text = "";
+            label3.Visible = true;
             this.Text = "Chương trình đang chạy";
             this.ActiveControl = null;
         }
@@ -59,6 +60,7 @@ namespace Project_PMDanhMayTuDong
         {
             isWroking = true;
             this.Text = "Chương trình đang chạy";
+            label3.Visible = true;
             this.ActiveControl = null;
         }
 
@@ -66,12 +68,14 @@ namespace Project_PMDanhMayTuDong
         {
             isWroking = false;
             this.Text = "Chương trình đã được tạm dừng";
+            label3.Visible = false;
             this.ActiveControl = null;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             this.Text = "Chương trình đã dừng";
+            label3.Visible = false;
             i = 0;
             isStopped = true;
             isWroking = false;

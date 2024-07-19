@@ -42,7 +42,6 @@ namespace Project_PMDanhMayTuDong
                           "ĐỂ BIẾT CÁCH SỬ DỤNG CÁC CHỨC NĂNG TRÊN, VUI LÒNG TRUY CẬP VÀO ĐƯỜNG LINK" +
                           " SAU ĐỂ XEM VIDEO HƯỚNG DẪN SỬ DỤNG.\n" +
                           "link...\n" +
-                          "5. Nhà phát triển: Dấu tên.\n\n" +
                           "II. Tổng quan về version 1.0.0:\n" +
                           "- Những điều mà version 1.0.0 có thể làm được được thì chúng tôi đã " +
                           "liệt kê hết ở trên rồi. Vậy nên, ở phần này chúng tôi sẽ chỉ đề cập đến những mặt" +
